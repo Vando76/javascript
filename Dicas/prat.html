@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Eu nasci no:<input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Resultado" onclick="calcular()">
+
+    <div id="res"></div>
+
+    <script>
+        function calcular() {
+            var txtn = document.querySelector('input#txtnac')
+            var res = document.querySelector('div#res')
+            var pais = (txtn.value)
+            if (pais == 'Brasil') {
+                res.innerHTML = `<p>Você é brasileiro!</p>`
+
+            } else {
+                res.innerHTML = `<p>Você é estrangeiro!</p>`
+            }
+            res.innerHTML += `<p>Isso porque você nasceu no <strong>${pais}</strong>!</p>`
+        }
+
+
+    </script>
+    
+</body>
+</html>
