@@ -10,8 +10,12 @@ body {
 header {
     color: white;
     text-align: center;
+    font-size: 1.8em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+    
 
 }
+
 
 section {
     background-color: white;
@@ -19,9 +23,16 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
 
 
+}
+
+div {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 8px;
 }
 
 footer {
